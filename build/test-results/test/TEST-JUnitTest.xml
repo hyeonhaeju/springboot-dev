@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="JUnitTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-09-30T08:11:18.372Z" hostname="HPC" time="0.037">
+  <properties/>
+  <testcase name="1 + 3는 4이다." classname="JUnitTest" time="0.013"/>
+  <testcase name="1 + 2는 3이다" classname="JUnitTest" time="0.002"/>
+  <system-out><![CDATA[최초준비
+테스트 준비
+테스트 후 설겆이
+테스트 준비
+테스트 후 설겆이
+최초마무리
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
