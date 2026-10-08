@@ -73,15 +73,15 @@ class QuizControllerTest {
     @DisplayName("Post: /quiz 요청, 요청 바디에 value=2 이면 응답 코드는 200, 응답 본문은 OK")
     @Test
     void postQuiz2() throws Exception {
-        // 준비 given
+        // 준비 given.
         final String url = "/quiz";
 
-        // 실행 when
+        // 실행 when.
         final ResultActions result = mockMvc.perform(post(url)
                 .contentType(MediaType.APPLICATION_JSON)
                 .content(objectMapper.writeValueAsString(new Code(2))));
 
-        // 검증 then
+        // 검증 then.
         result.andExpect(status().isOk())
                 .andExpect(content().string("OK"));
     }
