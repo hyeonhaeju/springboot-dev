@@ -1,4 +1,0 @@
-INSERT INTO MEMBER (id, name) VALUES(1, 'HYEON');
-INSERT INTO MEMBER (id, name) VALUES(2, 'HY');
-INSERT INTO MEMBER (id, name) VALUES(3, 'EON');
-
